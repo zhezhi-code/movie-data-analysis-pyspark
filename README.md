@@ -103,27 +103,19 @@ Visualisation
 
 ---
 
-## Installation
-
-Clone this repository
-
-```bash
-git clone https://github.com/your_username/movie-data-analysis-pyspark.git
-```
-
-Install dependencies
+### Option 1 – Local Python Environment
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook
+### Option 2 – Docker Environment
+
+The project also includes a Docker Compose configuration for running a Hadoop and Spark cluster.
 
 ```bash
-jupyter notebook
+docker compose up
 ```
-
----
 
 ## Future Improvements
 
